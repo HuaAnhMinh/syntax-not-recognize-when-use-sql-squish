@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Packages version on my machine
 
-Things you may want to cover:
+* Ruby 2.7.8
+* Rails 7.0.5.1
+* PostgresSQL 15
 
-* Ruby version
+Other than that, everything else is defined in `Gemfile`.
 
-* System dependencies
+# How to install dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Clone this repository
+* Run `bundle install`
+* Run `bundle exec rails db:create`
+* Run `bundle exec rails db:migrate`
